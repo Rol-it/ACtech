@@ -1,0 +1,489 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ACtech</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+<body style="background-color: rgb(65, 65, 65);">
+    <header id="header" class="header">
+        <div class="container">
+            <div class="nav-wrapper">
+                <div class="logo">
+                    <i class="fas fa-code"></i>
+                    <span>ICTech</span>
+                </div>
+                
+                <nav class="nav desktop-nav">
+                    <a href="#home" class="nav-link">Home</a>
+                    <a href="#about" class="nav-link">About</a>
+                    <a href="#team" class="nav-link">Meet our Team</a>
+                    <a href="#contact" class="nav-link">Message</a>
+                    <a href="#contactus" class="nav-link">Contact Us</a>
+                </nav>
+                
+                <button class="mobile-menu-btn" id="mobileMenuBtn">
+                    <i class="fas fa-bars"></i>
+                </button>
+            </div>
+            <nav class="mobile-nav" id="mobileNav">
+                <a href="#home" class="nav-link">Home</a>
+                    <a href="#about" class="nav-link">About</a>
+                    <a href="#team" class="nav-link">Meet our Team</a>
+                    <a href="#contact" class="nav-link">Message</a>
+                    <a href="#contactus" class="nav-link">Contact Us</a>
+            </nav>
+        </div>
+    </header>
+
+    
+    <!-- Hero Section -->
+    <section  id="home" class="hero">
+        <div class="hero-bg">
+            <div class="bg-shape shape-1"></div>
+            <div class="bg-shape shape-2"></div>
+            <div class="bg-shape shape-3"></div>
+        </div>
+    
+        <div  class="container">
+            <div class="hero-content">
+                <h1 class="hero-title">
+                    Innovative
+                    <span class="gradient-text">Technology</span>
+                    <br>Solutions
+                </h1>
+                
+                <p class="hero-description">
+                    We transform businesses through cutting-edge technology, delivering scalable solutions 
+                    that drive growth and innovation in the digital age.
+                </p>
+                
+                <div class="hero-buttons">
+                    <button class="btn btn-primary" onclick="scrollToSection('services')">
+                        <span>Get Started</span>
+                        <i class="fas fa-arrow-right"></i>
+                    </button>
+                    
+                    <button class="btn btn-secondary">
+                        <div class="play-icon">
+                            <i class="fas fa-play"></i>
+                        </div>
+                        <span>Watch Demo</span>
+                    </button>
+                </div>
+                
+                <div class="hero-stats">
+                    <div class="stat">
+                        <div class="stat-number">5+</div>
+                        <div class="stat-label">Projects Completed</div>
+                    </div>
+                    <div class="stat">
+                        <div class="stat-number">3+</div>
+                        <div class="stat-label">Happy Clients</div>
+                    </div>
+                    <div class="stat">
+                        <div class="stat-number">1+</div>
+                        <div class="stat-label">Months Experience</div>
+                    </div>
+                    <div class="stat">
+                        <div class="stat-number">7-8 hours</div>
+                        <div class="stat-label">Support Available</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="scroll-indicator">
+            <div class="scroll-mouse">
+                <div class="scroll-wheel"></div>
+            </div>
+        </div>
+    </section>
+
+        <section id="about" class="about">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-text">
+                    <h2 class="section-title">About ACTech</h2>
+                    <p class="about-description">
+                        Founded in 2025, ACTech was created for students and educators to use for attendance
+                    </p>
+                    
+                    <div class="mission-vision">
+                        <div class="mission">
+                            <div class="icon-wrapper blue">
+                                <div class="dot"></div>
+                            </div>
+                            <div class="content">
+                                <h3>Our Mission</h3>
+                                <p>
+                                    To empower businesses with innovative technology solutions that drive growth, 
+                                    efficiency, and competitive advantage in an ever-evolving digital landscape.
+                                </p>
+                            </div>
+                        </div>
+                        
+                        <div class="vision">
+                            <div class="icon-wrapper purple">
+                                <div class="dot"></div>
+                            </div>
+                            <div class="content">
+                                <h3>Our Vision</h3>
+                                <p>
+                                    To be the leading technology partner for businesses worldwide, recognized for 
+                                    our innovation, expertise, and commitment to client success.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="about-image">
+                    <div class="image-container">
+                        <img src="https://images.pexels.com/photos/3184465/pexels-photo-3184465.jpeg?auto=compress&cs=tinysrgb&w=800" alt="Team collaboration">
+                    </div>
+                    <div class="experience-badge">
+                        <div class="years">1+</div>
+                        <div class="label">months</div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="values">
+                <div class="values-header">
+                    <h3 class="values-title">Our Values</h3>
+                    <p class="values-description">
+                        The principles that guide everything we do and shape our company culture.
+                    </p>
+                </div>
+                
+                <div class="values-grid">
+                    <div class="value-card">
+                        <div class="value-icon">
+                            <i class="fas fa-target"></i>
+                        </div>
+                        <h4 class="value-title">Innovation</h4>
+                        <p class="value-description">
+                            We stay at the forefront of technology, constantly exploring new solutions to solve complex challenges.
+                        </p>
+                    </div>
+                    
+                    <div class="value-card">
+                        <div class="value-icon">
+                            <i class="fas fa-users"></i>
+                        </div>
+                        <h4 class="value-title">Collaboration</h4>
+                        <p class="value-description">
+                            We work closely with our clients as partners, ensuring every solution is tailored to their unique needs.
+                        </p>
+                    </div>
+                    
+                    <div class="value-card">
+                        <div class="value-icon">
+                            <i class="fas fa-award"></i>
+                        </div>
+                        <h4 class="value-title">Excellence</h4>
+                        <p class="value-description">
+                            We maintain the highest standards in everything we do, delivering quality that exceeds expectations.
+                        </p>
+                    </div>
+                    
+                    <div class="value-card">
+                        <div class="value-icon">
+                            <i class="fas fa-heart"></i>
+                        </div>
+                        <h4 class="value-title">Integrity</h4>
+                        <p class="value-description">
+                            We build trust through transparency, honesty, and ethical practices in all our business relationships.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    
+    <!-- Meet Our Team Section -->
+    <section id="team" class="team-section" style="background-color:rgb(65, 65, 65); padding:80px 20px;">
+      <div class="container">
+        <div class="section-header" data-aos="fade-up" data-aos-duration="2000">
+          <h2 style="color:#fff;" class="section-title">Meet Our Team</h2>
+          <p style="color:rgb(202,193,193);" class="section-description">
+            The passionate minds behind ACtech dedicated to building innovative solutions for students and educators.
+          </p>
+        </div>
+
+        
+        <div class="team-grid">
+          <div class="team-card" data-aos="zoom-in" data-aos-duration="1000">
+            <img src="LADRA, J.jpg" alt="Team Member 1">
+            <h3>James Arrol O Ladra</h3>
+            <p>Project Manager</p>
+            <div class="social-icons">
+              <a href="#"><i class="fab fa-linkedin"></i></a>
+              <a href="#"><i class="fab fa-github"></i></a>
+            </div>
+          </div>
+
+          <div class="team-card" data-aos="zoom-in" data-aos-duration="1200">
+            <img src="Penales.jpg" alt="Team Member 2">
+            <h3>Rey Christopher Penales</h3>
+            <p>Lead Developer</p>
+            <div class="social-icons">
+              <a href="#"><i class="fab fa-linkedin"></i></a>
+              <a href="#"><i class="fab fa-github"></i></a>
+            </div>
+          </div>
+
+          <div class="team-card" data-aos="zoom-in" data-aos-duration="1400">
+            <img src="RIN, V.jpg" alt="Team Member 3">
+            <h3>Vince Rin</h3>
+            <p>UI/UX Designer</p>
+            <div class="social-icons">
+              <a href="#"><i class="fab fa-linkedin"></i></a>
+              <a href="#"><i class="fab fa-dribbble"></i></a>
+            </div>
+          </div>
+
+          <div class="team-card" data-aos="zoom-in" data-aos-duration="1600">
+            <img src="FIEL, STEPHEN.jpg" alt="Team Member 4">
+            <h3>Stephen fiel</h3>
+            <p>Backend Engineer</p>
+            <div class="social-icons">
+              <a href="#"><i class="fab fa-linkedin"></i></a>
+              <a href="#"><i class="fab fa-github"></i></a>
+            </div>
+          </div>
+
+          <div class="team-card" data-aos="zoom-in" data-aos-duration="1800">
+            <img src="Aguiman.jpeg" alt="Team Member 5">
+            <h3>Linde Roxanne Aguiman</h3>
+            <p>QA Specialist</p>
+            <div class="social-icons">
+              <a href="#"><i class="fab fa-linkedin"></i></a>
+              <a href="#"><i class="fab fa-twitter"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Team Section -->
+
+    <div class="About"></div>
+
+  <section data-aos="fade-zoom-in"
+        data-aos-easing="ease-in-back"
+        data-aos-delay="300"
+        data-aos-offset="0" data-aos-duration="1000" style="background-color:rgb(65, 65, 65);" id="contact" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Get In Touch</h2>
+                <p class="section-description">
+                    Ready to transform your business with cutting-edge technology? 
+                    Let's discuss your project and explore how we can help you achieve your goals.
+                </p>
+            </div>
+            
+            <div class="contact-content">
+                <div class="contact-form-wrapper">
+                    <h3 class="form-title">Send us a message</h3>
+                    
+                    <form class="contact-form" id="contactForm">
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="name">Full Name *</label>
+                                <input type="text" id="name" name="name" required placeholder="John Doe">
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Email Address *</label>
+                                <input type="email" id="email" name="email" required placeholder="john@example.com">
+                            </div>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="company">Company Name</label>
+                            <input type="text" id="company" name="company" placeholder="Your Company">
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="message">Message *</label>
+                            <textarea id="message" name="message" required rows="6" placeholder="Tell us about your project..."></textarea>
+                        </div>
+                        
+                        <button type="submit" class="btn btn-primary form-submit">
+                            <span>Send Message</span>
+                            <i class="fas fa-paper-plane"></i>
+                        </button>
+                    </form>
+                </div>
+                
+                <div class="contact-info">
+                    <h3 class="info-title">Contact Information</h3>
+                    <p class="info-description">
+                        We're here to help and answer any question you might have. 
+                        We look forward to hearing from you.
+                    </p>
+                    
+                    <div class="contact-items">
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <div class="contact-details">
+                                <h4>Email Us</h4>
+                                <p class="contact-value">hello@Actech.online</p>
+                                <p class="contact-desc">Send us an email anytime</p>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-phone"></i>
+                            </div>
+                            <div class="contact-details">
+                                <h4>Call Us</h4>
+                                <p class="contact-value">0919191911</p>
+                                <p class="contact-desc">Mon-Fri from 8am to 5pm</p>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-map-marker-alt"></i>
+                            </div>
+                            <div class="contact-details">
+                                <h4>Visit Us</h4>
+                                <p class="contact-value">Looc,Jagna,Bohol</p>
+                                <p class="contact-desc">Come say hello at our office</p>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-clock"></i>
+                            </div>
+                            <div class="contact-details">
+                                <h4>Working Hours</h4>
+                                <p class="contact-value">Mon - Fri: 8AM - 6PM</p>
+                                <p class="contact-desc">Weekend support available</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="social-links">
+                        <h4>Follow Us</h4>
+                        <div class="social-buttons">
+                            <button class="social-btn">
+                                <i class="fab fa-linkedin"></i>
+                            </button>
+                            <button class="social-btn">
+                                <i class="fab fa-twitter"></i>
+                            </button>
+                            <button class="social-btn">
+                                <i class="fab fa-github"></i>
+                            </button>
+                            <button class="social-btn">
+                                <i class="fab fa-instagram"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer data-aos="fade-zoom-in"
+        data-aos-easing="ease-in-back"
+        data-aos-delay="300"
+        data-aos-offset="0" data-aos-duration="1000" class="footer" style="background-color: rgb(65, 65, 65);">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section company-info">
+                    <div class="footer-logo" id="contactus">
+                        <i class="fas fa-code"></i>
+                        <span>ACTech</span>
+                    </div>
+                    <p class="company-description">
+                        Transforming businesses through innovative technology solutions. 
+                        We deliver cutting-edge software development, cloud services, and 
+                        digital transformation strategies.
+                    </p>
+                    <div class="contact-info-footer">
+                        <div class="contact-item-footer">
+                            <i class="fas fa-envelope"></i>
+                            <span>hello@Actech.online</span>
+                        </div>
+                        <div class="contact-item-footer">
+                            <i class="fas fa-phone"></i>
+                            <span>0919191919</span>
+                        </div>
+                        <div class="contact-item-footer">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>Looc,Jagna,Bohol</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="footer-section">
+                    <h3 class="footer-title">Quick Links</h3>
+                    <ul class="footer-links">
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#portfolio">Portfolio</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h3 class="footer-title">Services</h3>
+                    <ul class="footer-links">
+                        <li><a href="#services">Web Development</a></li>
+                        <li><a href="#services">Mobile Apps</a></li>
+                        <li><a href="#services">Cloud Solutions</a></li>
+                        <li><a href="#services">Cybersecurity</a></li>
+                        <li><a href="#services">Data Analytics</a></li>
+                        <li><a href="#services">Digital Transformation</a></li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="newsletter">
+                <div class="newsletter-content">
+                    <div class="newsletter-text">
+                        <h3>Stay Updated</h3>
+                        <p>Subscribe to our newsletter for the latest tech insights.</p>
+                    </div>
+                    <div class="newsletter-form">
+                        <input type="email" placeholder="Enter your email" class="newsletter-input">
+                        <button class="newsletter-btn">Subscribe</button>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <div class="footer-bottom-content">
+                    <p class="copyright">© 2024 ACTech. All rights reserved.</p>
+                    <div class="footer-bottom-links">
+                        <a href="#">Privacy Policy</a>
+                        <a href="#">Terms of Service</a>
+                        <button class="scroll-top-btn" id="scrollTopBtn">
+                            <i class="fas fa-arrow-up"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+  <script type="module" src="https://unpkg.com/@splinetool/viewer@1.10.57/build/spline-viewer.js"></script>
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script src="script.js"></script>
+  <script>
+    AOS.init();
+  </script>
+</body>
+</html>
